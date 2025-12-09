@@ -1,84 +1,132 @@
 <p align="center">
-  <img src="logo.png" width="120" alt="Hotel Logo"/>
+  <img src="logo.png" width="120" alt="Hotel Management Logo"/>
 </p>
-<h1 align="center">Hotel Booking Platform</h1>
+<h1 align="center">Hotel Management Dashboard</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/React-18+-blue?logo=react"/>
   <img src="https://img.shields.io/badge/Supabase-Backend-green?logo=supabase"/>
-  <img src="https://img.shields.io/badge/React_Query-Latest-red"/>
+  <img src="https://img.shields.io/badge/Recharts-Analytics-orange"/>
   <img src="https://img.shields.io/badge/Vite-Build-646CFF?logo=vite"/>
 </p>
 <p align="center">
-  A modern, user-friendly hotel booking platform designed to provide guests with 
-  <b>seamless room discovery, real-time availability, and secure  reservations</b>.
+  A comprehensive hotel management system that empowers hotel staff to 
+  <b>efficiently manage bookings, rooms, guests, and finances</b> through an intuitive administrative dashboard.
 </p>
 
 ---
 
+## 📸 Dashboard Overview
+
 <p align="center">
-  <img src="HotelWebsiteGif.gif" width="700" alt="Booking Platform Preview"/>
+  <img src="screenshots/dashboard-1.jpg" width="800" alt="Main Dashboard"/>
 </p>
 
+<p align="center">
+  <img src="screenshots/dashboard-2.jpg" width="800" alt="Dashboard Analytics"/>
+</p>
+
+*Real-time analytics, booking statistics, and comprehensive hotel performance metrics*
 
 ---
 
 ## 📖 About
 
-This **Hotel Booking Platform** is the guest-facing interface of a comprehensive hotel management system, developed during my Bachelor studies at the University of Central Asia. The platform addresses the growing need for digital transformation in Kyrgyzstan's hospitality industry by providing travelers with an intuitive, efficient way to discover and book hotel accommodations.
+The **Hotel Management Dashboard** is a powerful administrative interface designed to streamline hotel operations and replace manual, inefficient booking management processes. Developed as part of a Bachelor's thesis at the University of Central Asia, this system addresses critical challenges faced by hotels in Kyrgyzstan's growing hospitality sector.
 
-Unlike traditional booking methods that rely on phone calls or third-party platforms, this system provides:
-- **Direct booking** with real-time room availability
-- **Transparent pricing** with no hidden fees
-- **Secure payment processing** for peace of mind
-- **Interactive room selection** to choose exactly what you want
-- **Multi-language support** (English & Russian) for diverse travelers
+**The Challenge:** Traditional hotel management relies on fragmented systems - staff juggle phone reservations, manual room tracking, third-party booking platforms (with high commission fees), and separate payment management systems. This creates data inconsistencies, overbooking risks, and operational inefficiencies.
 
+**The Solution:** An integrated management platform that centralizes all hotel operations in one secure, real-time dashboard, eliminating third-party dependencies and reducing operational costs.
 
-## ✨ Key Features
+## ✨ Core Features
 
-### For Guests
-- **🔍 Smart Search & Filtering** - Find rooms by dates, capacity, price range, and amenities
-- **🗺️ Interactive Room Selection** - Visual room map for choosing your preferred location
-- **⚡ Real-Time Availability** - Instant updates prevent double-bookings and booking conflicts
-- **💳 Secure Online Payments** - Multiple payment options with encrypted transactions
-- **🌍 Multi-Language Support** - Full interface in English and Russian
-- **📱 Responsive Design** - Seamless experience across desktop, tablet, and mobile devices
-- **⭐ Guest Reviews** - Read authentic reviews from previous guests
-- **🏨 Detailed Room Information** - Complete descriptions, pricing, photos, and amenities
-- **✅ Instant Booking Confirmation** - Receive immediate confirmation and booking details
-- **🔐 Secure User Accounts** - Manage bookings and personal information safely
+### 📊 Dashboard & Analytics
+- **Real-time KPI Tracking** - Monitor occupancy rates, revenue, and booking trends
+- **Visual Analytics** - Interactive charts showing sales, check-ins, and duration statistics
+- **Performance Metrics** - Track hotel performance with actionable insights
+- **Financial Overview** - Complete revenue tracking and financial reporting
+
+### 🏨 Booking Management
+- **Centralized Booking View** - See all reservations in one place
+- **Real-time Updates** - Instant synchronization across all booking channels
+- **Status Management** - Track checked-in, checked-out, and unconfirmed bookings
+- **Booking Modifications** - Easy editing and cancellation handling
+- **Payment Tracking** - Monitor payment status and outstanding balances
+- **Check-in/Check-out Processing** - Streamlined guest arrival and departure workflows
+
+### 🛏️ Room & Cabin Management
+- **Inventory Control** - Manage all rooms with real-time availability status
+- **Room Configuration** - Set capacity, pricing, amenities, and descriptions
+- **Visual Room Status** - Quick overview of occupied, available, and maintenance rooms
+- **Dynamic Pricing** - Adjust rates by season, demand, or special offers
+- **Room Assignment** - Intelligent room allocation for bookings
+
+### 👥 Guest Management
+- **Guest Profiles** - Comprehensive database of all guests
+- **Booking History** - View complete stay history for each guest
+- **Contact Information** - Easy access to guest details for communication
+- **Guest Preferences** - Track special requests and preferences
+- **Document Management** - Store ID verification and important documents
+
+### 👨‍💼 User & Staff Management
+- **Role-Based Access Control** - Assign permissions based on staff roles
+- **User Authentication** - Secure login and password management
+- **Staff Accounts** - Create and manage accounts for receptionists, managers, etc.
+- **Activity Logs** - Track user actions for accountability
+- **Profile Management** - Update personal information and credentials
+
+### 💰 Financial Management
+- **Revenue Tracking** - Monitor daily, weekly, and monthly income
+- **Payment Processing** - Record online and offline payments
+- **Outstanding Payments** - Track unpaid or partially paid bookings
+- **Financial Reports** - Generate detailed financial summaries
+- **Expense Tracking** - Log operational costs and expenses
+
+### ⚙️ System Settings
+- **Hotel Configuration** - Manage hotel details, contact info, and policies
+- **Check-in/Check-out Times** - Set standard operating hours
+- **Multi-language Settings** - Configure English and Russian interfaces
+- **Notification Preferences** - Customize alerts and reminders
+- **System Customization** - Adjust dashboard layout and preferences
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React 18+** - Modern component-based UI framework
-- **React Router Dom** - Dynamic client-side routing
-- **Styled Components** - CSS-in-JS for modular, maintainable styles
-- **React Query** - Powerful data fetching and state management
+- **React 18+** - Component-based architecture for maintainable code
+- **React Router Dom** - Dynamic routing for dashboard navigation
+- **Styled Components** - Modular, scoped styling system
+- **React Query** - Server state management and caching
 - **React Hook Form** - Efficient form handling with validation
-- **React Hot Toast** - Beautiful toast notifications
-- **Vite** - Lightning-fast build tool and dev server
+- **React Hot Toast** - User-friendly notification system
 
 ### Backend & Database
-- **Supabase** - Backend-as-a-Service with PostgreSQL database
-- **PostgreSQL** - Robust relational database for data storage
-- **Real-time Subscriptions** - Live updates for room availability
+- **Supabase** - Complete backend-as-a-service solution
+- **PostgreSQL** - Robust relational database with complex queries
+- **Real-time Database** - Live updates without page refreshes
+- **Row-Level Security** - Secure data access control
+- **Authentication & Authorization** - Built-in user management
 
 ### Data Visualization
-- **Recharts** - Interactive charts for pricing trends and availability
+- **Recharts** - Interactive charts and graphs for analytics
+- **D3.js Integration** - Advanced data visualization capabilities
+
+### Development Tools
+- **Vite** - Fast development server with hot module replacement
+- **Git** - Version control and code management
+- **ESLint & Prettier** - Code quality and formatting
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js 16+ and npm/yarn
-- Supabase account and project setup
+- Supabase account with project setup
+- Admin credentials for hotel management
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hotel-booking-client.git
-cd hotel-booking-client
+git clone https://github.com/yourusername/hotel-management-dashboard.git
+cd hotel-management-dashboard
 
 # Install dependencies
 npm install
@@ -87,7 +135,7 @@ yarn install
 
 # Configure environment variables
 cp .env.example .env
-# Add your Supabase URL and API key to .env
+# Add your Supabase credentials and admin settings
 
 # Start development server
 npm run dev
@@ -104,6 +152,7 @@ Create a `.env` file in the root directory:
 ```env
 VITE_SUPABASE_URL=your_supabase_project_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+VITE_ADMIN_ROLE=admin
 ```
 
 ### Building for Production
@@ -117,103 +166,108 @@ yarn build
 npm run preview
 ```
 
-## 📱 User Journey
+## 📱 Dashboard Modules
 
-### 1. **Browse Available Rooms**
-   - View all available accommodations with photos and details
-   - Filter by dates, capacity, price, and amenities
-   - Compare different room types side-by-side
+### 1. **Dashboard Overview**
+   - Quick statistics: Total bookings, revenue, occupancy rate
+   - Visual charts: Recent bookings, sales trends, stay duration
+   - Today's check-ins and check-outs
+   - Recent activity feed
 
-### 2. **Select Your Perfect Room**
-   - Use the interactive room map to choose your preferred location
-   - View real-time availability and pricing
-   - Read reviews from previous guests
+### 2. **Bookings Module**
+   - Comprehensive booking list with filtering and sorting
+   - Status indicators: Unconfirmed, Checked-in, Checked-out
+   - Quick actions: Check-in, Check-out, View details, Delete
+   - Search by guest name, booking ID, or dates
+   - Bulk operations for multiple bookings
 
-### 3. **Secure Your Booking**
-   - Fill in guest information quickly with our streamlined form
-   - Choose your payment method (online or pay at hotel)
-   - Review booking summary before confirming
+### 3. **Cabins/Rooms Module**
+   - Grid or list view of all rooms
+   - Room status badges: Available, Occupied, Maintenance
+   - Add, edit, or archive rooms
+   - Duplicate room configurations for efficiency
+   - Photo management for each room
 
-### 4. **Receive Confirmation**
-   - Get instant booking confirmation
-   - Access booking details anytime from your account
-   - Receive reminder notifications before check-in
+### 4. **Guests Module**
+   - Searchable guest database
+   - View booking history per guest
+   - Contact information management
+   - Guest notes and preferences
+   - Export guest lists
+
+### 5. **Users Module**
+   - Staff account creation and management
+   - Role assignment and permissions
+   - Password reset functionality
+   - User activity monitoring
+   - Deactivate or remove users
+
+### 6. **Settings Module**
+   - Update hotel information
+   - Configure check-in/check-out times
+   - Set breakfast pricing
+   - Customize booking rules
+   - System preferences
 
 ## 🎯 Project Context
 
-### Background
-This project was developed during my studies at the **University of Central Asia** as a comprehensive solution to modernize hotel management and booking systems.
+**The Challenge:** Traditional hotel management relies on fragmented systems - staff juggle phone reservations, manual room tracking, third-party booking platforms (with high commission fees), and separate payment management systems. This creates data inconsistencies, overbooking risks, and operational inefficiencies.
 
-### Research Focus
-Development and Implementation of a Web Application for Hotel Management & Booking System
+**The Solution:** An integrated management platform that centralizes all hotel operations in one secure, real-time dashboard, eliminating third-party dependencies and reducing operational costs.
 
-**Problem Statement:** Hotels often rely on manual booking processes, phone reservations, and third-party platforms that charge high commissions (15-20%). This creates inefficiencies, data inconsistencies, overbooking risks, and reduced profit margins for hotel owners.
+### Development Approach
+The project employed a **hybrid Agile-Iterative methodology**, ensuring:
+- Continuous user feedback integration
+- Incremental feature development
+- Rapid prototyping and testing
+- Flexibility to adapt to changing requirements
+- Milestone-based progress tracking
 
-**Solution:** A comprehensive digital platform that enables hotels to manage their own bookings directly, eliminating middlemen fees, providing real-time updates, and offering a superior guest experience through modern web technology.
+## 📊 Database Architecture
 
-### Impact on Tourism Industry
-The hospitality industry is experiencing rapid digital transformation. This platform supports that growth by:
-- Reducing operational costs for hotels
-- Improving booking efficiency and accuracy
-- Enhancing guest experience with modern, intuitive interfaces
-- Enabling direct customer relationships for hotels
+The system uses a well-structured PostgreSQL database with the following core entities:
 
-## 📸 Screenshots
+- **Hotel** - Base configuration and details
+- **Room/Cabin** - Inventory with types, capacity, and pricing
+- **RoomType** - Standardized room categories
+- **Guest** - Customer profiles and information
+- **Booking** - Reservation records with dates and pricing
+- **Payment** - Financial transactions and payment methods
+- **Staff** - Employee accounts and roles
+
+**Key Features:**
+- Foreign key relationships ensure data integrity
+- Indexes optimize query performance
+- Row-level security protects sensitive data
+- Real-time subscriptions for live updates
+
+## 📸 Complete Feature Set
 
 <p align="center">
-  <img src="screenshots/home-page.png" width="250" alt="Home Page"/>
-  <img src="screenshots/room-search.png" width="250" alt="Room Search"/>
-  <img src="screenshots/room-details.png" width="250" alt="Room Details"/>
+  <img src="screenshots/features-collage.png" width="900" alt="All Management Features"/>
 </p>
 
-<p align="center">
-  <img src="screenshots/booking-form.png" width="250" alt="Booking Form"/>
-  <img src="screenshots/payment.png" width="250" alt="Payment"/>
-  <img src="screenshots/confirmation.png" width="250" alt="Confirmation"/>
-</p>
-
-## 🏗️ System Architecture
-
-This client application is part of a larger hotel management ecosystem:
-
-```
-┌─────────────────────────────────────┐
-│   Guest Booking Platform (This)    │
-│   - Room browsing & search          │
-│   - Booking management              │
-│   - Payment processing              │
-└──────────────┬──────────────────────┘
-               │
-               ↓
-┌─────────────────────────────────────┐
-│         Supabase Backend            │
-│   - PostgreSQL Database             │
-│   - Real-time subscriptions         │
-│   - Authentication & Authorization  │
-└──────────────┬──────────────────────┘
-               │
-               ↓
-┌─────────────────────────────────────┐
-│   Hotel Management Dashboard        │
-│   - Booking administration          │
-│   - Room & inventory management     │
-│   - Financial tracking              │
-│   - Guest management                │
-└─────────────────────────────────────┘
-```
-
-## 🧪 Testing
-
-The platform has undergone rigorous testing including:
-- **Functional Testing** - All booking flows validated
-- **User Acceptance Testing** - Positive feedback from initial users
-- **Cross-browser Testing** - Compatible with major browsers
-- **Responsive Testing** - Verified across multiple device sizes
-- **Performance Testing** - Optimized for fast load times
+*Comprehensive view of booking management, cabin administration, guest tracking, user settings, and all operational tools*
 
 ---
 
-<p align="center">
-  <i>"Modernizing the hospitality industry, one booking at a time"</i><br>
-  University Project | University of Central Asia | 2024
-</p>
+## 🔒 Security Features
+
+- **Authentication** - Secure login with JWT tokens
+- **Authorization** - Role-based access control (RBAC)
+- **Data Encryption** - Sensitive data encrypted at rest and in transit
+- **Password Security** - Bcrypt hashing for passwords
+- **Session Management** - Automatic timeout and secure sessions
+- **Audit Logs** - Track all administrative actions
+
+## 📈 Business Impact
+
+### Benefits for Hotels
+- **Cost Savings** - Eliminate 15-20% commission fees from third-party platforms
+- **Efficiency Gains** - Reduce booking processing time by 60%
+- **Data Control** - Own and control all guest and booking data
+- **Brand Building** - Direct customer relationships strengthen brand
+- **Revenue Optimization** - Dynamic pricing and analytics increase income
+
+### Impact on Tourism Industry
+The hospitality industry is experiencing significant digital transformation. This platform supports that growth by modernizing hotel operations and improving service quality, enabling hotels to compete more effectively in the digital marketplace.
